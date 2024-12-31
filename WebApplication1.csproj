@@ -68,8 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aaaaa.aspx" />
+    <Content Include="advatise.aspx" />
+    <Content Include="BD_24_12.aspx" />
+    <Content Include="browser.aspx" />
+    <Content Include="Calculater.aspx" />
     <Content Include="Demo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aaaaa.aspx.cs">
@@ -78,6 +83,34 @@
     </Compile>
     <Compile Include="aaaaa.aspx.designer.cs">
       <DependentUpon>aaaaa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advatise.aspx.cs">
+      <DependentUpon>advatise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="advatise.aspx.designer.cs">
+      <DependentUpon>advatise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BD_24_12.aspx.cs">
+      <DependentUpon>BD_24_12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BD_24_12.aspx.designer.cs">
+      <DependentUpon>BD_24_12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="browser.aspx.cs">
+      <DependentUpon>browser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="browser.aspx.designer.cs">
+      <DependentUpon>browser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculater.aspx.cs">
+      <DependentUpon>Calculater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculater.aspx.designer.cs">
+      <DependentUpon>Calculater.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demo.aspx.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
@@ -96,6 +129,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FILES\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

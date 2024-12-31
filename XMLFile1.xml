@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+	<Ad>
+		<ImageUrl>https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg</ImageUrl>
+		<Keywords></Keywords>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>c-sharp</AlternateText>
+		<Impression>3</Impression>		
+		
+	</Ad>
+
+	<Ad>
+		<ImageUrl>https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg</ImageUrl>
+		<Keywords></Keywords>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>c-sharp</AlternateText>
+		<Impression>3</Impression>
+
+	</Ad>
+
+	
+	
+	</Advertisements>
