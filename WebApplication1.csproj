@@ -74,6 +74,7 @@
     <Content Include="Calculater.aspx" />
     <Content Include="Demo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +101,6 @@
     </Compile>
     <Compile Include="browser.aspx.cs">
       <DependentUpon>browser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="browser.aspx.designer.cs">
       <DependentUpon>browser.aspx</DependentUpon>
@@ -120,9 +120,24 @@
       <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
